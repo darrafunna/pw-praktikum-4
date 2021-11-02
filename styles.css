@@ -1,0 +1,76 @@
+
+h1{
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align:center;
+    color: #E98580;
+    font-family: 'Poppins', sans-serif;
+}
+
+.filter .button{
+  padding-left: 10%;
+}
+
+.filter .button li{
+  float: left;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 5%;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.filter .button form input{
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  margin-left: 10px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.filter .button form input:hover{
+  background-color: #E98580;
+  color: #ffffff;
+}
+
+.button{
+  margin: auto;
+}
+
+.content{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    min-width: 80%;
+    border-radius:10px 10px 10px 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content thead tr {
+    background-color: #E98580;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content th,
+  .content td {
+    padding: 12px 15px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .content tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content tbody tr:nth-of-type(even) {
+    background-color: #f0f0f0;
+  }
+  
+  
